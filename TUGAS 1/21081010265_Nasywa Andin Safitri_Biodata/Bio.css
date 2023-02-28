@@ -1,0 +1,131 @@
+body {
+    background: radial-gradient(circle,red,yellow); text-align: center;
+}
+img {
+    border-radius: 50%;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 5%;
+    
+}
+td{
+    text-align: left;
+}
+tr:hover{
+    background-color: aqua;
+}
+
+h1{
+    transition: transform 1s;
+}
+h1:hover{
+    transform: rotate(360deg);
+}
+
+.ears {
+    display: flex;
+    position: relative;
+  }
+ 
+   .ear-left{
+        transform: rotate(-20deg);
+        background: #582806;
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        background: #ffabab;
+        width: 40px;
+        height: 40px;
+
+        box-shadow: -4px -1px 2px -2px #5f3721;
+        position: absolute;
+   }
+   .ear-right {
+        transform: rotate(-20deg);
+        background: #582806;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        background: #ffabab;
+        width: 40px;
+        height: 40px;
+
+        box-shadow: -1px -3px 2px -2px #5f3721;
+
+        position: absolute;
+   }
+
+ .ear-left {
+    top: -10px;
+    left: 0;
+
+ }
+.ear-right {
+    top: -10px;
+    left: 90px;
+ }
+
+ .head {
+    background: #ffabab;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    display: flex;
+    align-content: center;
+    position: relative;
+    z-index: 1;
+    box-shadow: -2px 5px 2px -2px #5f3721;
+ }
+
+ .eyes {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+ }
+
+ .eye-left, 
+ .eye-right {
+    background: white;
+    border: 3px solid #402424;
+    height: 30px;
+    width: 25px;
+    border-radius: 100%;
+    margin: 10px;
+ }
+
+ .dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background: #402424;
+    position: relative;
+    top: 10px;
+    left: 2.3px;
+ }
+
+ .nose {
+    background: #ffabab;
+    height: 25px;
+    width: 35px;
+    border: 3px solid #402424;
+    border-radius: 70%;
+    position: absolute;
+    top: 70px;
+    left: 45px;
+    display: flex;
+ }
+
+ .nostril-left, 
+ .nostril-right {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background: #402424;
+    position: relative;
+    top: 3px;
+    margin: 5px;
+ }

@@ -26,7 +26,7 @@
 
     ?>
 
-    <h1 align="center">TABEL EMPLOYEE</h1>
+    <h1 align="center">TABEL EMPLOYEES</h1>
     <table border="1" align="center">
         <thead>
             <tr">
